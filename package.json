@@ -49,14 +49,14 @@
   },
   "dependencies": {
     "anymatch": "^2.0",
-    "anysort": "~1.0",
-    "check-dependencies": "~1.0.1",
+    "anysort": "git://github.com/es128/anysort",
+    "check-dependencies": "^1.1.0",
     "chokidar": "^2",
     "coffeescript": "~1.12.7",
     "commander": "~2.9",
     "commonjs-require-definition": "~0.6.2",
-    "deppack": "~0.8",
     "debug": "^3.1.0",
+    "deppack": "~0.8",
     "deps-install": "~0.1",
     "fcache": "~0.3",
     "init-skeleton": "~1.0",
@@ -73,12 +73,12 @@
     "universal-path": "^0.1"
   },
   "devDependencies": {
-    "ava": "~0.16",
+    "ava": "^2.3.0",
     "eslint": "^3",
     "eslint-config-brunch": "^1",
     "fixturify": "^0.2",
     "fs-extra": "^0.30",
-    "nyc": "^13.0.0",
+    "nyc": "^14.1.1",
     "rewire": "^2.5",
     "test-console": "^1"
   },
